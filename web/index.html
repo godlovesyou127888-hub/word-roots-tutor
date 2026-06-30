@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Word Roots Tutor — 大字版</title>
+  <style>
+    :root {
+      --bg: #0b1220;
+      --panel: #0f172a;
+      --border: #1f2937;
+      --muted: #94a3b8;
+      --text: #e5e7eb;
+      --accent: #22c55e;
+      --accent-soft: #052e16;
+      --big: clamp(18px, 2.2vw, 26px);
+      --mid: clamp(16px, 1.8vw, 20px);
+    }
+    * { box-sizing: border-box; }
+    html, body {
+      margin: 0; padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: ui-sans-serif, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      font-size: 18px;
+      line-height: 1.7;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 18px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 14px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 24px;
+      letter-spacing: 0.4px;
+    }
+    .badge {
+      font-size: 14px;
+      background: var(--accent-soft);
+      color: #bbf7d0;
+      border: 1px solid #14532d;
+      padding: 6px 12px;
+      border-radius: 6px;
+    }
+    nav {
+      display: flex;
+      gap: 10px;
+      padding: 14px 24px;
+      border-bottom: 1px solid var(--border);
+      flex-wrap: wrap;
+    }
+    nav button {
+      background: #0b1220;
+      color: #e5e7eb;
+      border: 1px solid #1f2937;
+      padding: 10px 14px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 18px;
+    }
+    nav button:hover { border-color: #334155; }
+    button.primary {
+      background: var(--accent-soft);
+      border-color: #14532d;
+      color: #bbf7d0;
+      font-size: 20px;
+      padding: 12px 16px;
+    }
+    main {
+      padding: 24px;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+    .progress {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 20px;
+      font-size: var(--mid);
+    }
+    .progress > div {
+      flex: 1;
+      height: 14px;
+      background: #020617;
+      border: 1px solid #1f2937;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .progress > div > div {
+      height: 100%;
+      width: 0%;
+      background: #22c55e;
+      transition: width .25s ease;
+    }
+    .card {
+      background: #0b1220;
+      border: 1px solid #1f2937;
+      border-radius: 10px;
+      padding: 18px;
+      font-size: var(--mid);
+    }
+    .card.big {
+      font-size: var(--big);
+    }
+    .pill {
+      display: inline-block;
+      background: var(--accent-soft);
+      color: #bbf7d0;
+      border: 1px solid #14532d;
+      padding: 5px 10px;
+      border-radius: 6px;
+      font-size: 14px;
+    }
+    .stacked { display: grid; gap: 12px; }
+    .empty {
+      color: #94a3b8;
+      border: 1px dashed #1f2937;
+      padding: 22px;
+      border-radius: 10px;
+      text-align: center;
+      font-size: 22px;
+    }
+    details.help {
+      background: #0b1220;
+      border: 1px solid #1f2937;
+      border-radius: 10px;
+      padding: 14px;
+      margin-top: 18px;
+      font-size: var(--mid);
+    }
+    .actions { display: flex; gap: 10px; flex-wrap: wrap; }
+    button.ghost {
+      background: transparent;
+      border-color: #1f2937;
+      color: #e5e7eb;
+      font-size: 18px;
+      padding: 10px 14px;
+    }
+    .label { color: #94a3b8; font-size: 14px; }
+    .grid2 { display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); }
+    .item { padding: 12px; border: 1px solid #1f2937; border-radius: 8px; }
+    .itemHead { display: flex; align-items: baseline; gap: 10px; }
+    .rootTitle { color: #4ade80; font-weight: 700; }
+    .meta { color: #94a3b8; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Word Roots Tutor 大字版</h1>
+    <div class="badge" id="count">0 / 100</div>
+  </header>
+
+  <nav>
+    <button class="primary" id="btnAsk">出題 Ask</button>
+    <button id="btnQuiz">選擇題 Quiz</button>
+    <button id="btnReview">複習 Review</button>
+    <button id="btnList">字根表 List</button>
+    <button id="btnBrowse">瀏覽全部 Browse</button>
+    <button id="btnHelp" class="ghost">說明 Help</button>
+    <button id="btnReset" class="ghost">重置 Reset</button>
+  </nav>
+
+  <main>
+    <div class="progress">
+      <div><div id="bar"></div></div>
+      <span class="meta" id="status">Idle</span>
+    </div>
+
+    <section id="stage" class="card big stacked"></section>
+    <section id="browse" class="card stacked" style="display:none"></section>
+
+    <details class="help">
+      <summary>How to test offline / 離線測試方式</summary>
+      <div>
+        From this folder run:<br/>
+        <code>python -m http.server 8080</code><br/>
+        Then open <code>http://localhost:8080</code>.
+      </div>
+    </details>
+  </main>
+
+  <script>
+    const ROOTS_URL = new URL('roots.json', location.href).toString();
+    const PROGRESS_KEY = 'wrt.progress.v1';
+    const rootsEl = document.getElementById('stage');
+    const browseEl = document.getElementById('browse');
+    const barEl = document.getElementById('bar');
+    const countEl = document.getElementById('count');
+    const statusEl = document.getElementById('status');
+
+    let roots = [];
+    let asked = new Set();
+    let browseStart = 0;
+    const PAGE_SIZE = 20;
+
+    async function init() {
+      const res = await fetch(ROOTS_URL);
+      roots = await res.json();
+      loadProgress();
+      renderProgress();
+
+      document.getElementById('btnAsk').onclick = modeAsk;
+      document.getElementById('btnQuiz').onclick = modeQuiz;
+      document.getElementById('btnReview').onclick = modeReview;
+      document.getElementById('btnList').onclick = modeList;
+      document.getElementById('btnBrowse').onclick = modeBrowse;
+      document.getElementById('btnHelp').onclick = () => {
+        document.querySelector('details.help').open = !document.querySelector('details.help').open;
+      };
+      document.getElementById('btnReset').onclick = () => {
+        if (confirm('重置所有進度？/ Reset all progress?')) {
+          asked.clear();
+          saveProgress();
+          renderProgress();
+          rootsEl.innerHTML = '';
+          statusEl.textContent = '已重置 / Reset done';
+        }
+      };
+    }
+
+    function loadProgress() {
+      try {
+        const raw = localStorage.getItem(PROGRESS_KEY);
+        if (!raw) return;
+        const data = JSON.parse(raw);
+        if (Array.isArray(data.asked)) asked = new Set(data.asked);
+      } catch {}
+    }
+    function saveProgress() {
+      localStorage.setItem(PROGRESS_KEY, JSON.stringify({ asked: Array.from(asked) }));
+    }
+    function markAsked(root) {
+      asked.add(root);
+      saveProgress();
+      renderProgress();
+    }
+    function renderProgress() {
+      const total = roots.length || 100;
+      const n = asked.size;
+      const pct = Math.round((n / total) * 100);
+      barEl.style.width = pct + '%';
+      countEl.textContent = `${n} / ${total}  (${pct}%)`;
+      statusEl.textContent = pct === 100 ? '已完成！/ All reviewed' : '複習中 / Reviewing…';
+    }
+    function pickUnrevealed() {
+      const pool = roots.filter(r => !asked.has(r.root));
+      return pool.length ? pool[Math.floor(Math.random() * pool.length)] : null;
+    }
+    function pickAsked() {
+      const pool = roots.filter(r => asked.has(r.root));
+      return pool.length ? pool[Math.floor(Math.random() * pool.length)] : null;
+    }
+
+    function modeAsk() {
+      browseEl.style.display = 'none';
+      const target = pickUnrevealed();
+      if (!target) {
+        rootsEl.innerHTML = '<div class="empty">恭喜！已全部複習完成。/ All reviewed — nice work.</div>';
+        return;
+      }
+      rootsEl.innerHTML = '';
+      const prompt = document.createElement('div');
+      prompt.innerHTML = `
+        <div class="label">這是哪一個字根？/ Was it:</div>
+        <div class="itemHead">
+          <div class="rootTitle" style="font-size: 28px">${target.root}</div>
+          <div class="meta">${target.pronunciation}</div>
+          <div style="margin-left: 8px; color: #fbbf24; font-weight: 700">— ${target.meaning}</div>
+        </div>
+        <div class="actions" style="margin-top: 14px">
+          <button class="primary" id="showAsk">看答案 / Show answer</button>
+        </div>`;
+      rootsEl.appendChild(prompt);
+      document.getElementById('showAsk').onclick = () => {
+        markAsked(target.root);
+        drawDetail('ask', target);
+      };
+    }
+
+    function modeQuiz() {
+      browseEl.style.display = 'none';
+      const target = roots[Math.floor(Math.random() * roots.length)];
+      rootsEl.innerHTML = '';
+      const card = document.createElement('div');
+      card.innerHTML = `
+        <div class="pill" style="margin-bottom: 10px">選擇題 / Quiz</div>
+        <div style="font-size: 24px; line-height: 1.6">${target.quiz}</div>
+        <div class="actions" style="margin-top: 14px">
+          <button class="primary" id="showQuiz">看答案 / Reveal answer</button>
+        </div>`;
+      rootsEl.appendChild(card);
+      document.getElementById('showQuiz').onclick = () => {
+        markAsked(target.root);
+        drawDetail('quiz', target);
+      };
+    }
+
+    function modeReview() {
+      browseEl.style.display = 'none';
+      const target = pickAsked();
+      if (!target) {
+        rootsEl.innerHTML = '<div class="empty">還沒有複習紀錄。/ Nothing reviewed yet — try Ask first.</div>';
+        return;
+      }
+      markAsked(target.root);
+      rootsEl.innerHTML = '';
+      drawDetail('review', target);
+    }
+
+    function modeList() {
+      browseEl.style.display = 'none';
+      rootsEl.innerHTML = '';
+      const grid = document.createElement('div');
+      grid.className = 'grid2';
+      roots.forEach(r => {
+        const item = document.createElement('div');
+        item.className = 'item';
+        const done = asked.has(r.root);
+        item.innerHTML = `
+          <div class="itemHead">
+            <div class="rootTitle">${r.root}</div>
+            <div class="meta">${r.pronunciation}</div>
+            ${done ? '<div style="color:#4ade80; margin-left: 6px">✔</div>' : ''}
+          </div>
+          <div style="margin-top: 4px">${r.meaning} · ${r.origin}</div>
+          <div class="label" style="margin-top: 4px">例詞 / Derived: ${r.derived.join(', ')}</div>`;
+        item.style.cursor = 'pointer';
+        item.onclick = () => {
+          markAsked(r.root);
+          drawDetail('list', r);
+        };
+        grid.appendChild(item);
+      });
+      rootsEl.appendChild(grid);
+    }
+
+    function modeBrowse() {
+      rootsEl.innerHTML = '';
+      browseEl.style.display = 'block';
+      browseStart = 0;
+      renderBrowse();
+    }
+
+    function renderBrowse() {
+      const end = Math.min(browseStart + PAGE_SIZE, roots.length);
+      let html = `
+        <div class="actions">
+          <button class="ghost" id="prevBrowse" ${browseStart===0?'disabled':''}>上一頁 / Previous</button>
+          <span class="meta">${browseStart+1}-${end} / ${roots.length}</span>
+          <button class="ghost" id="nextBrowse" ${end>=roots.length?'disabled':''}>下一頁 / Next</button>
+        </div>`;
+      for (let i = browseStart; i < end; i++) {
+        const r = roots[i];
+        const done = asked.has(r.root);
+        html += `
+          <div class="item" style="display:flex; gap:14px; justify-content:space-between; align-items:center">
+            <div>
+              <div class="itemHead">
+                <div class="rootTitle" style="font-size: 22px">${r.root}</div>
+                <div class="meta">${r.pronunciation}</div>
+                ${done ? '<div style="color:#4ade80; margin-left: 6px">✔</div>' : ''}
+              </div>
+              <div style="margin-top: 4px; font-size: 20px">${r.meaning} · ${r.origin}</div>
+              <div class="label" style="margin-top: 4px">例詞 / Derived: ${r.derived.join(', ')}</div>
+            </div>
+            <div>
+              <button class="primary" data-root="${r.root}">開啟 / Open</button>
+            </div>
+          </div>`;
+      }
+      browseEl.innerHTML = html;
+      document.getElementById('prevBrowse').onclick = () => {
+        browseStart = Math.max(0, browseStart - PAGE_SIZE);
+        renderBrowse();
+      };
+      document.getElementById('nextBrowse').onclick = () => {
+        browseStart = Math.min(roots.length - PAGE_SIZE, browseStart + PAGE_SIZE);
+        renderBrowse();
+      };
+      browseEl.querySelectorAll('button[data-root]').forEach(btn => {
+        btn.onclick = () => {
+          const r = roots.find(x => x.root === btn.dataset.root);
+          if (!r) return;
+          markAsked(r.root);
+          drawDetail('browse', r);
+        };
+      });
+    }
+
+    function drawDetail(mode, target) {
+      browseEl.style.display = 'none';
+      const title = mode === 'quiz' ? '答案 / Answer' : (mode === 'browse' ? '詳細 / Detail' : mode.toUpperCase());
+      const exampleZh = target.example_zh ? `<div style="margin-top: 4px; color: #94a3b8">${target.example_zh}</div>` : '';
+      const mnemonicZh = target.mnemonic_zh ? `<div style="margin-top: 4px; color: #94a3b8">${target.mnemonic_zh}</div>` : '';
+      rootsEl.innerHTML = `
+        <div class="pill" style="margin-bottom: 10px">${title}</div>
+        <div style="font-size: 30px; line-height: 1.5">
+          <span class="rootTitle">${target.root}</span>
+          <span class="meta" style="margin-left: 8px">${target.pronunciation}</span>
+        </div>
+        <div style="margin-top: 10px">
+          <div style="font-size: 22px"><strong>意思 / Meaning</strong> — ${target.meaning}</div>
+          <div style="margin-top: 6px"><strong>來源 / Origin</strong> — ${target.origin}</div>
+          <div style="margin-top: 6px"><strong>例詞 / Derived</strong> — ${target.derived.join(', ')}</div>
+          <div style="margin-top: 10px; font-size: 20px">
+            <div><strong>例句 / Example</strong></div>
+            <div style="margin-top: 4px">${target.example_sentence}</div>
+            ${exampleZh}
+          </div>
+          <div style="margin-top: 10px; font-size: 20px">
+            <div><strong>記憶 / Mnemonic</strong></div>
+            <div style="margin-top: 4px">${target.mnemonic}</div>
+            ${mnemonicZh}
+          </div>
+        </div>`;
+    }
+
+    init().catch(err => {
+      rootsEl.innerHTML = `<div class="empty">Failed to load roots.json: ${err.message}</div>`;
+    });
+  </script>
+</body>
+</html>

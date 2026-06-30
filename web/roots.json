@@ -1,0 +1,1666 @@
+[
+  {
+    "root": "spect",
+    "pronunciation": "/spekt/",
+    "meaning": "看",
+    "origin": "Latin spectare",
+    "derived": [
+      "inspect",
+      "spectator",
+      "spectrum",
+      "respect",
+      "prospect"
+    ],
+    "example_sentence": "The inspector examined the documents carefully.",
+    "mnemonic": "inspect 的 spect 就是「看」。",
+    "quiz": "inspect 的重點動作是？",
+    "example_zh": "檢查員仔細檢查了文件。",
+    "mnemonic_zh": "檢查的spect就是「看」。"
+  },
+  {
+    "root": "port",
+    "pronunciation": "/port/",
+    "meaning": "搬運",
+    "origin": "Latin portare",
+    "derived": [
+      "transport",
+      "export",
+      "import",
+      "portable"
+    ],
+    "example_sentence": "Portable devices are easy to carry.",
+    "mnemonic": "port = carry。",
+    "quiz": "portable 與何者同根？",
+    "example_zh": "便攜式設備易於攜帶。",
+    "mnemonic_zh": "端口=攜帶。"
+  },
+  {
+    "root": "dict",
+    "pronunciation": "/dikt/",
+    "meaning": "說",
+    "origin": "Latin dicere",
+    "derived": [
+      "predict",
+      "dictionary",
+      "contradict",
+      "dictate"
+    ],
+    "example_sentence": "The teacher will dictate the new words.",
+    "mnemonic": "dict = speak/say。",
+    "quiz": "predict 的字根是哪一段？",
+    "example_zh": "老師會口授新單字。",
+    "mnemonic_zh": "dict = 說/說。"
+  },
+  {
+    "root": "mit",
+    "pronunciation": "/mit/",
+    "meaning": "送",
+    "origin": "Latin mittere",
+    "derived": [
+      "submit",
+      "transmit",
+      "permit",
+      "emit",
+      "commit"
+    ],
+    "example_sentence": "Please submit your report by Friday.",
+    "mnemonic": "mit = send。",
+    "quiz": "emit 表示什麼方向？",
+    "example_zh": "請在周五之前提交報告。",
+    "mnemonic_zh": "與 = 發送。"
+  },
+  {
+    "root": "struct",
+    "pronunciation": "/strʌkt/",
+    "meaning": "建造",
+    "origin": "Latin struere",
+    "derived": [
+      "construct",
+      "instruct",
+      "destruction",
+      "structure"
+    ],
+    "example_sentence": "The school built a new library.",
+    "mnemonic": "struct = build。",
+    "quiz": "construct 的動作是？",
+    "example_zh": "學校建了一座新圖書館。",
+    "mnemonic_zh": "結構=構建。"
+  },
+  {
+    "root": "alter",
+    "pronunciation": "/ˈɔːltər/",
+    "meaning": "改變",
+    "origin": "Latin alter",
+    "derived": [
+      "alter",
+      "alteration",
+      "alternative",
+      "altruism"
+    ],
+    "example_sentence": "The plan was altered after more review.",
+    "mnemonic": "alter = change。",
+    "quiz": "alternative 暗示什麼核心動作？",
+    "example_zh": "經過更多審查後，該計劃被更改。",
+    "mnemonic_zh": "改變=改變。"
+  },
+  {
+    "root": "bio",
+    "pronunciation": "/ˈbaɪoʊ/",
+    "meaning": "生命",
+    "origin": "Greek bios",
+    "derived": [
+      "biology",
+      "biography",
+      "symbiosis",
+      "antibiotic"
+    ],
+    "example_sentence": "He studied biology in college.",
+    "mnemonic": "bio = life。",
+    "quiz": "biography 的主題是什麼？",
+    "example_zh": "他在大學學習生物學。",
+    "mnemonic_zh": "生物=生命。"
+  },
+  {
+    "root": "chron",
+    "pronunciation": "/krɒn/",
+    "meaning": "時間",
+    "origin": "Greek chronos",
+    "derived": [
+      "chronic",
+      "chronology",
+      "synchronize",
+      "chronicle"
+    ],
+    "example_sentence": "His chronic cough lasted months.",
+    "mnemonic": "chron = time。",
+    "quiz": "synchronized watches 最強調什麼？",
+    "example_zh": "他的慢性咳嗽持續了幾個月。",
+    "mnemonic_zh": "chron = 時間。"
+  },
+  {
+    "root": "dem",
+    "pronunciation": "/dem/",
+    "meaning": "人民",
+    "origin": "Greek demos",
+    "derived": [
+      "democracy",
+      "demographic",
+      "epidemic"
+    ],
+    "example_sentence": "Democracy means rule by the people.",
+    "mnemonic": "dem = people。",
+    "quiz": "democracy 的核心是誰？",
+    "example_zh": "民主意味著人民當家作主。",
+    "mnemonic_zh": "dem = 人。"
+  },
+  {
+    "root": "graph",
+    "pronunciation": "/græf/",
+    "meaning": "寫、畫",
+    "origin": "Greek graphein",
+    "derived": [
+      "autograph",
+      "paragraph",
+      "photograph",
+      "graphic"
+    ],
+    "example_sentence": "He asked for an autograph.",
+    "mnemonic": "graph = write/draw。",
+    "quiz": "paragraph 的功能偏向？",
+    "example_zh": "他索要簽名。",
+    "mnemonic_zh": "圖=寫/畫。"
+  },
+  {
+    "root": "log",
+    "pronunciation": "/lɒg/",
+    "meaning": "研究、話語",
+    "origin": "Greek logos",
+    "derived": [
+      "logic",
+      "dialogue",
+      "monologue",
+      "catalog"
+    ],
+    "example_sentence": "They held a serious dialogue.",
+    "mnemonic": "log = reason/word。",
+    "quiz": "logic 在學什麼？",
+    "example_zh": "他們進行了嚴肅的對話。",
+    "mnemonic_zh": "log = 原因/詞。"
+  },
+  {
+    "root": "luc",
+    "pronunciation": "/luːk/",
+    "meaning": "光",
+    "origin": "Latin lux",
+    "derived": [
+      "lucid",
+      "elucidate",
+      "translucent",
+      "lucrative"
+    ],
+    "example_sentence": "The water looked translucent.",
+    "mnemonic": "luc = light。",
+    "quiz": "translucent 的直覺含意是？",
+    "example_zh": "水看起來是半透明的。",
+    "mnemonic_zh": "luc = 光。"
+  },
+  {
+    "root": "man",
+    "pronunciation": "/mæn/",
+    "meaning": "手",
+    "origin": "Latin manus",
+    "derived": [
+      "manual",
+      "manufacture",
+      "manuscript",
+      "manipulate"
+    ],
+    "example_sentence": "Turn the page manually.",
+    "mnemonic": "man = hand。",
+    "quiz": "manipulate 暗示什麼動作？",
+    "example_zh": "手動翻頁。",
+    "mnemonic_zh": "人=手。"
+  },
+  {
+    "root": "mob",
+    "pronunciation": "/moʊb/",
+    "meaning": "動",
+    "origin": "Latin mobilis",
+    "derived": [
+      "mobile",
+      "immobile",
+      "mobilize",
+      "removable"
+    ],
+    "example_sentence": "Please keep your phone on silent.",
+    "mnemonic": "mob = move。",
+    "quiz": "immobile 表示什麼？",
+    "example_zh": "請保持手機靜音。",
+    "mnemonic_zh": "暴徒=移動。"
+  },
+  {
+    "root": "mort",
+    "pronunciation": "/mɔːrt/",
+    "meaning": "死",
+    "origin": "Latin mors",
+    "derived": [
+      "mortal",
+      "immortal",
+      "mortality",
+      "mortgage"
+    ],
+    "example_sentence": "All mortals must sleep.",
+    "mnemonic": "mort = death。",
+    "quiz": "mortality 的主題與什麼最相關？",
+    "example_zh": "所有凡人必須睡覺。",
+    "mnemonic_zh": "mort=死亡。"
+  },
+  {
+    "root": "pel",
+    "pronunciation": "/pel/",
+    "meaning": "驅趕、推",
+    "origin": "Latin pellere",
+    "derived": [
+      "compel",
+      "expel",
+      "propel",
+      "repel"
+    ],
+    "example_sentence": "The law compels disclosure.",
+    "mnemonic": "pel = push/drive。",
+    "quiz": "propel 的行動重點是？",
+    "example_zh": "法律強制披露。",
+    "mnemonic_zh": "pel = 推動/驅動。"
+  },
+  {
+    "root": "scrib",
+    "pronunciation": "/skrɪb/",
+    "meaning": "寫",
+    "origin": "Latin scribere",
+    "derived": [
+      "describe",
+      "prescribe",
+      "subscribe",
+      "script"
+    ],
+    "example_sentence": "Please describe the scene.",
+    "mnemonic": "scrib = write。",
+    "quiz": "subscribe 的核心動作是？",
+    "example_zh": "請描述一下當時的場景。",
+    "mnemonic_zh": "抄寫=寫。"
+  },
+  {
+    "root": "sid",
+    "pronunciation": "/sɪd/",
+    "meaning": "坐",
+    "origin": "Latin sedere",
+    "derived": [
+      "preside",
+      "reside",
+      "subsidiary",
+      "dissident"
+    ],
+    "example_sentence": "She will preside over the meeting.",
+    "mnemonic": "sid = sit。",
+    "quiz": "preside 暗示的角色是？",
+    "example_zh": "她將主持會議。",
+    "mnemonic_zh": "sid = 坐。"
+  },
+  {
+    "root": "ten",
+    "pronunciation": "/ten/",
+    "meaning": "握住",
+    "origin": "Latin tenere",
+    "derived": [
+      "tenant",
+      "tenable",
+      "tenacious",
+      "content"
+    ],
+    "example_sentence": "The tenant paid the rent.",
+    "mnemonic": "ten = hold。",
+    "quiz": "content（名詞）常和什麼感受有關？",
+    "example_zh": "租客支付了租金。",
+    "mnemonic_zh": "十=持有。"
+  },
+  {
+    "root": "urb",
+    "pronunciation": "/ɜːrb/",
+    "meaning": "城市",
+    "origin": "Latin urbs",
+    "derived": [
+      "urban",
+      "suburb",
+      "urbanize",
+      "exurb"
+    ],
+    "example_sentence": "They live in a quiet suburb.",
+    "mnemonic": "urb = city。",
+    "quiz": "suburb 的位置關係是？",
+    "example_zh": "他們住在一個安靜的郊區。",
+    "mnemonic_zh": "urb = 城市。"
+  },
+  {
+    "root": "act",
+    "pronunciation": "/ækt/",
+    "meaning": "行動",
+    "origin": "Latin agere",
+    "derived": [
+      "action",
+      "activate",
+      "enact",
+      "interactive"
+    ],
+    "example_sentence": "He activated his account.",
+    "mnemonic": "act = do/move。",
+    "quiz": "interactive 的行為重點是？",
+    "example_zh": "他激活了他的帳戶。",
+    "mnemonic_zh": "行動=做/移動。"
+  },
+  {
+    "root": "bene",
+    "pronunciation": "/bene/",
+    "meaning": "好",
+    "origin": "Latin bene",
+    "derived": [
+      "benefit",
+      "benevolent",
+      "beneficial",
+      "benedict"
+    ],
+    "example_sentence": "The software has many benefits.",
+    "mnemonic": "bene = good/well。",
+    "quiz": "benevolent 最可能形容什麼？",
+    "example_zh": "該軟體有很多好處。",
+    "mnemonic_zh": "bene = 好/好。"
+  },
+  {
+    "root": "brevi",
+    "pronunciation": "/ˈbrevi/",
+    "meaning": "短",
+    "origin": "Latin brevis",
+    "derived": [
+      "brief",
+      "abbreviate",
+      "brevity"
+    ],
+    "example_sentence": "Give me a brief summary.",
+    "mnemonic": "brevi = short。",
+    "quiz": "brevity 指的是什麼特性？",
+    "example_zh": "給我一個簡短的總結。",
+    "mnemonic_zh": "brevi = 短。"
+  },
+  {
+    "root": "cide",
+    "pronunciation": "/saɪd/",
+    "meaning": "殺",
+    "origin": "Latin caedere",
+    "derived": [
+      "homicide",
+      "pesticide",
+      "suicide"
+    ],
+    "example_sentence": "Pesticides can kill pests.",
+    "mnemonic": "cide = kill。",
+    "quiz": "suicide 的主體對象是誰？",
+    "example_zh": "農藥可以殺死害蟲。",
+    "mnemonic_zh": "cide = 殺死。"
+  },
+  {
+    "root": "cog",
+    "pronunciation": "/kɒg/",
+    "meaning": "思考",
+    "origin": "Latin cogitare",
+    "derived": [
+      "cognition",
+      "recognize",
+      "cognizant",
+      "cognitive"
+    ],
+    "example_sentence": "Cognitive tests measure thinking.",
+    "mnemonic": "cog = think/know。",
+    "quiz": "cognitive 偏向哪個領域？",
+    "example_zh": "認知測驗測量思維。",
+    "mnemonic_zh": "cog = 思考/知道。"
+  },
+  {
+    "root": "cred",
+    "pronunciation": "/kred/",
+    "meaning": "相信",
+    "origin": "Latin credere",
+    "derived": [
+      "credit",
+      "credibility",
+      "incredible",
+      "creed"
+    ],
+    "example_sentence": "His story was incredible.",
+    "mnemonic": "cred = believe/trust。",
+    "quiz": "credibility 說明的是？",
+    "example_zh": "他的故事令人難以置信。",
+    "mnemonic_zh": "信用=相信/信任。"
+  },
+  {
+    "root": "cur",
+    "pronunciation": "/kɜːr/",
+    "meaning": "跑",
+    "origin": "Latin currere",
+    "derived": [
+      "current",
+      "currency",
+      "concur",
+      "excursion"
+    ],
+    "example_sentence": "Strong currents affected the boat.",
+    "mnemonic": "cur = run。",
+    "quiz": "concurrent 表示的事件關係是？",
+    "example_zh": "強大的水流影響了船。",
+    "mnemonic_zh": "cur = 運行。"
+  },
+  {
+    "root": "duc",
+    "pronunciation": "/duːk/",
+    "meaning": "帶領",
+    "origin": "Latin ducere",
+    "derived": [
+      "introduce",
+      "produce",
+      "conduct",
+      "educate"
+    ],
+    "example_sentence": "She was educated in Tokyo.",
+    "mnemonic": "duc = lead。",
+    "quiz": "educate 的行動方向是？",
+    "example_zh": "她在東京接受教育。",
+    "mnemonic_zh": "duc = 鉛。"
+  },
+  {
+    "root": "fac",
+    "pronunciation": "/fæk/",
+    "meaning": "做",
+    "origin": "Latin facere",
+    "derived": [
+      "fabricate",
+      "facility",
+      "manufacture",
+      "facile"
+    ],
+    "example_sentence": "They fabricated parts for cars.",
+    "mnemonic": "fac = make/do。",
+    "quiz": "manufacture 的意思是？",
+    "example_zh": "他們製造汽車零件。",
+    "mnemonic_zh": "fac = 製作/做。"
+  },
+  {
+    "root": "fer",
+    "pronunciation": "/fɜːr/",
+    "meaning": "帶、拿",
+    "origin": "Latin ferre",
+    "derived": [
+      "transfer",
+      "conference",
+      "prefer",
+      "fertile"
+    ],
+    "example_sentence": "They prefer early check-in.",
+    "mnemonic": "fer = carry/bring。",
+    "quiz": "transfer 的動作重點是？",
+    "example_zh": "他們更喜歡提前入住。",
+    "mnemonic_zh": "fer = 攜帶/帶來。"
+  },
+  {
+    "root": "flect",
+    "pronunciation": "/flekt/",
+    "meaning": "彎",
+    "origin": "Latin flectere",
+    "derived": [
+      "reflect",
+      "deflect",
+      "inflection"
+    ],
+    "example_sentence": "The mirror reflected their faces.",
+    "mnemonic": "flect = bend。",
+    "quiz": "reflect 最接近哪種動作？",
+    "example_zh": "鏡子映出了他們的臉。",
+    "mnemonic_zh": "彎曲=彎曲。"
+  },
+  {
+    "root": "gen",
+    "pronunciation": "/dʒen/",
+    "meaning": "生",
+    "origin": "Greek gennan",
+    "derived": [
+      "generate",
+      "genuine",
+      "genetic",
+      "degenerate"
+    ],
+    "example_sentence": "The machine generates heat.",
+    "mnemonic": "gen = birth/produce。",
+    "quiz": "degenerate 的字面意思傾向？",
+    "example_zh": "機器會產生熱量。",
+    "mnemonic_zh": "gen = 出生/產生。"
+  },
+  {
+    "root": "grad",
+    "pronunciation": "/ɡreɪd/",
+    "meaning": "步、級",
+    "origin": "Latin gradus",
+    "derived": [
+      "grade",
+      "gradual",
+      "degrade",
+      "graduate"
+    ],
+    "example_sentence": "She graduated with honors.",
+    "mnemonic": "grad = step/grade。",
+    "quiz": "degrade 常見的語意方向是？",
+    "example_zh": "她以優異的成績畢業。",
+    "mnemonic_zh": "等級=步數/等級。"
+  },
+  {
+    "root": "ject",
+    "pronunciation": "/dʒekt/",
+    "meaning": "投",
+    "origin": "Latin jacere",
+    "derived": [
+      "project",
+      "reject",
+      "inject",
+      "eject"
+    ],
+    "example_sentence": "They rejected the proposal.",
+    "mnemonic": "ject = throw。",
+    "quiz": "inject 的動作方向是？",
+    "example_zh": "他們拒絕了這個提議。",
+    "mnemonic_zh": "ject = 投擲。"
+  },
+  {
+    "root": "junct",
+    "pronunciation": "/dʒʌŋkt/",
+    "meaning": "連接",
+    "origin": "Latin jungere",
+    "derived": [
+      "junction",
+      "adjacent",
+      "conjunction",
+      "disjoint"
+    ],
+    "example_sentence": "They met at the railway junction.",
+    "mnemonic": "junct = join。",
+    "quiz": "adjacent 表示何種關係？",
+    "example_zh": "他們在鐵路樞紐相遇。",
+    "mnemonic_zh": "聯結 = 加入。"
+  },
+  {
+    "root": "loc",
+    "pronunciation": "/loʊk/",
+    "meaning": "地方",
+    "origin": "Latin locus",
+    "derived": [
+      "locate",
+      "location",
+      "local",
+      "dislocate"
+    ],
+    "example_sentence": "The restaurant is located near station.",
+    "mnemonic": "loc = place。",
+    "quiz": "locate 的主要目的？",
+    "example_zh": "餐廳位於車站附近。",
+    "mnemonic_zh": "地點=喜歡。"
+  },
+  {
+    "root": "luc",
+    "pronunciation": "/luːk/",
+    "meaning": "光",
+    "origin": "Latin lux",
+    "derived": [
+      "lucid",
+      "elucidate",
+      "translucent"
+    ],
+    "example_sentence": "His explanation was lucid.",
+    "mnemonic": "luc = light。",
+    "quiz": "lucid 與下列詞最相關？",
+    "example_zh": "他的解釋很清楚。",
+    "mnemonic_zh": "luc = 光。"
+  },
+  {
+    "root": "mater",
+    "pronunciation": "/ˈmeɪtər/",
+    "meaning": "母",
+    "origin": "Latin mater",
+    "derived": [
+      "maternal",
+      "maternity",
+      "matriarch"
+    ],
+    "example_sentence": "Maternity leave lasts 12 weeks.",
+    "mnemonic": "mater = mother。",
+    "quiz": "matriarch 的核心角色是？",
+    "example_zh": "產假持續 12 週。",
+    "mnemonic_zh": "母=母親。"
+  },
+  {
+    "root": "mit",
+    "pronunciation": "/mɪt/",
+    "meaning": "送",
+    "origin": "Latin mittere",
+    "derived": [
+      "mission",
+      "dismiss",
+      "emit",
+      "transmit"
+    ],
+    "example_sentence": "They transmitted the signal.",
+    "mnemonic": "mit = send。",
+    "quiz": "transmit 的重點是？",
+    "example_zh": "他們傳輸了訊號。",
+    "mnemonic_zh": "與 = 發送。"
+  },
+  {
+    "root": "agri",
+    "pronunciation": "/ˈæɡri/",
+    "meaning": "田地、農業",
+    "origin": "Latin ager",
+    "derived": [
+      "agriculture",
+      "agrimotor",
+      "agronomy"
+    ],
+    "example_sentence": "Agriculture feeds the world.",
+    "mnemonic": "agri = field/farm。",
+    "quiz": "agriculture 和何者最相關？",
+    "example_zh": "農業養活世界。",
+    "mnemonic_zh": "agri = 田地/農場。"
+  },
+  {
+    "root": "ann",
+    "pronunciation": "/æn/",
+    "meaning": "年",
+    "origin": "Latin annus",
+    "derived": [
+      "annual",
+      "anniversary",
+      "perennial"
+    ],
+    "example_sentence": "The annual meeting is in March.",
+    "mnemonic": "ann = year。",
+    "quiz": "annual 的頻率是？",
+    "example_zh": "年會在三月舉行。",
+    "mnemonic_zh": "安 = 年。"
+  },
+  {
+    "root": "aqua",
+    "pronunciation": "/ˈækwə/",
+    "meaning": "水",
+    "origin": "Latin aqua",
+    "derived": [
+      "aquarium",
+      "aquatic",
+      "sub aqua"
+    ],
+    "example_sentence": "The aquarium has many fish.",
+    "mnemonic": "aqua = water。",
+    "quiz": "aquatic 的生物棲息處是？",
+    "example_zh": "水族館裡有很多魚。",
+    "mnemonic_zh": "水=水。"
+  },
+  {
+    "root": "arm",
+    "pronunciation": "/ɑːrm/",
+    "meaning": "武器、武裝",
+    "origin": "Latin arma",
+    "derived": [
+      "armor",
+      "disarm",
+      "armada",
+      "armistice"
+    ],
+    "example_sentence": "The knight wore heavy armor.",
+    "mnemonic": "arm = weapon。",
+    "quiz": "armistice 描述的是？",
+    "example_zh": "騎士穿著重甲。",
+    "mnemonic_zh": "手臂=武器。"
+  },
+  {
+    "root": "aud",
+    "pronunciation": "/ɔːd/",
+    "meaning": "聽",
+    "origin": "Latin audire",
+    "derived": [
+      "audible",
+      "audience",
+      "auditory"
+    ],
+    "example_sentence": "The sound was barely audible.",
+    "mnemonic": "aud = hear。",
+    "quiz": "audience  usually 指的是？",
+    "example_zh": "聲音幾乎聽不見。",
+    "mnemonic_zh": "aud = 聽到。"
+  },
+  {
+    "root": "bell",
+    "pronunciation": "/bel/",
+    "meaning": "戰爭",
+    "origin": "Latin bellum",
+    "derived": [
+      "belligerent",
+      "bellicosity",
+      "rebel"
+    ],
+    "example_sentence": "He was a rebel in his youth.",
+    "mnemonic": "bell = war。",
+    "quiz": "rebel 意味著什麼姿態？",
+    "example_zh": "他年輕時是個叛逆者。",
+    "mnemonic_zh": "鐘聲=戰爭。"
+  },
+  {
+    "root": "cand",
+    "pronunciation": "/kænd/",
+    "meaning": "白、發光",
+    "origin": "Latin candere",
+    "derived": [
+      "candle",
+      "candid",
+      "incandescent"
+    ],
+    "example_sentence": "She gave a candid answer.",
+    "mnemonic": "cand = white/glow。",
+    "quiz": "candid 最可能形容什麼？",
+    "example_zh": "她給了坦誠的回答。",
+    "mnemonic_zh": "cand = 白色/發光。"
+  },
+  {
+    "root": "cap",
+    "pronunciation": "/kæp/",
+    "meaning": "頭",
+    "origin": "Latin caput",
+    "derived": [
+      "captain",
+      "capital",
+      "caput",
+      "decapitate"
+    ],
+    "example_sentence": "The captain led the team.",
+    "mnemonic": "cap = head。",
+    "quiz": "capital 原指哪裡？",
+    "example_zh": "隊長帶領著球隊。",
+    "mnemonic_zh": "帽=頭。"
+  },
+  {
+    "root": "cas",
+    "pronunciation": "/keɪs/",
+    "meaning": "落下",
+    "origin": "Latin casus",
+    "derived": [
+      "casualty",
+      "decay",
+      "coincidence"
+    ],
+    "example_sentence": "The casualty count rose.",
+    "mnemonic": "cas/cad = fall。",
+    "quiz": "decay 的核心概念是？",
+    "example_zh": "傷亡人數上升。",
+    "mnemonic_zh": "cas/cad = 墜落。"
+  },
+  {
+    "root": "ced",
+    "pronunciation": "/siːd/",
+    "meaning": "走",
+    "origin": "Latin cedere",
+    "derived": [
+      "process",
+      "procedure",
+      "recede",
+      "intercede"
+    ],
+    "example_sentence": "Prices receded after the sale.",
+    "mnemonic": "ced/cess = go。",
+    "quiz": "process 的流程是屬於 go 的哪種形式？",
+    "example_zh": "出售後價格回落。",
+    "mnemonic_zh": "ced/cess = 去。"
+  },
+  {
+    "root": "cent",
+    "pronunciation": "/sent/",
+    "meaning": "百",
+    "origin": "Latin centum",
+    "derived": [
+      "century",
+      "percent",
+      "centennial"
+    ],
+    "example_sentence": "This castle is centuries old.",
+    "mnemonic": "cent = hundred。",
+    "quiz": "century 的長度是？",
+    "example_zh": "這座城堡已有數百年歷史。",
+    "mnemonic_zh": "分=百。"
+  },
+  {
+    "root": "claim",
+    "pronunciation": "/kleɪm/",
+    "meaning": "呼喊",
+    "origin": "Latin clamare",
+    "derived": [
+      "claim",
+      "exclaim",
+      "proclaim",
+      "acclaim"
+    ],
+    "example_sentence": "She claimed the lost wallet.",
+    "mnemonic": "claim = shout out。",
+    "quiz": "proclaim 的出發點是？",
+    "example_zh": "她認領了遺失的錢包。",
+    "mnemonic_zh": "主張=喊出來。"
+  },
+  {
+    "root": "cord",
+    "pronunciation": "/kɔːrd/",
+    "meaning": "心",
+    "origin": "Latin cor",
+    "derived": [
+      "cordial",
+      "concord",
+      "discord",
+      "record"
+    ],
+    "example_sentence": "They reached a concord after talks.",
+    "mnemonic": "cord = heart。",
+    "quiz": "record 的字面含意是？",
+    "example_zh": "雙方會談後達成協議。",
+    "mnemonic_zh": "繩子=心。"
+  },
+  {
+    "root": "cour",
+    "pronunciation": "/kʊər/",
+    "meaning": " court 法院/宮廷",
+    "origin": "Latin curia",
+    "derived": [
+      "courtesy",
+      "courtyard",
+      "curator",
+      "courtship"
+    ],
+    "example_sentence": "Courtesy costs nothing.",
+    "mnemonic": "cour = court。",
+    "quiz": "courtesy 的來源場域是？",
+    "example_zh": "禮貌不需要任何成本。",
+    "mnemonic_zh": "court=法庭。"
+  },
+  {
+    "root": "cruc",
+    "pronunciation": "/kruːs/",
+    "meaning": "十字、交叉",
+    "origin": "Latin crux",
+    "derived": [
+      "crucial",
+      "crucifix",
+      "excruciating"
+    ],
+    "example_sentence": "This meeting is crucial.",
+    "mnemonic": "cruc = cross。",
+    "quiz": "crucial 強調多重要？",
+    "example_zh": "這次會議至關重要。",
+    "mnemonic_zh": "cruc = 十字。"
+  },
+  {
+    "root": "cycl",
+    "pronunciation": "/saɪkl/",
+    "meaning": "圓、輪",
+    "origin": "Greek kyklos",
+    "derived": [
+      "cycle",
+      "cyclone",
+      "encyclopedia"
+    ],
+    "example_sentence": "The cyclone moved north.",
+    "mnemonic": "cycl = circle/wheel。",
+    "quiz": "encyclopedia 的原始構想是？",
+    "example_zh": "氣旋向北移動。",
+    "mnemonic_zh": "週期=圓/輪。"
+  },
+  {
+    "root": "dent",
+    "pronunciation": "/dent/",
+    "meaning": "牙齒",
+    "origin": "Latin dens",
+    "derived": [
+      "dentist",
+      "dental",
+      "dentures"
+    ],
+    "example_sentence": "She visits the dentist twice a year.",
+    "mnemonic": "dent = tooth。",
+    "quiz": "dental 照顧什麼？",
+    "example_zh": "她每年去看牙醫兩次。",
+    "mnemonic_zh": "dent = 牙齒。"
+  },
+  {
+    "root": "dom",
+    "pronunciation": "/dom/",
+    "meaning": "統治、家",
+    "origin": "Latin dominus",
+    "derived": [
+      "domain",
+      "domestic",
+      "dominate",
+      "dominion"
+    ],
+    "example_sentence": "English is the dominant language there.",
+    "mnemonic": "dom = master/home。",
+    "quiz": "dominate 的行為是？",
+    "example_zh": "英語是那裡的主要語言。",
+    "mnemonic_zh": "dom = master/home。"
+  },
+  {
+    "root": "dorm",
+    "pronunciation": "/dɔːrm/",
+    "meaning": "睡",
+    "origin": "Latin dormire",
+    "derived": [
+      "dormitory",
+      "dormant",
+      "dormancy"
+    ],
+    "example_sentence": "The volcano has been dormant for years.",
+    "mnemonic": "dorm = sleep。",
+    "quiz": "dormant 表示什麼狀態？",
+    "example_zh": "這座火山多年來一直處於休眠狀態。",
+    "mnemonic_zh": "宿舍=睡覺。"
+  },
+  {
+    "root": "dyn",
+    "pronunciation": "/daɪn/",
+    "meaning": "力量",
+    "origin": "Greek dynamis",
+    "derived": [
+      "dynamic",
+      "dynamo",
+      "dynasty"
+    ],
+    "example_sentence": "She is a dynamic speaker.",
+    "mnemonic": "dyn = power。",
+    "quiz": "dynamic 常用來形容什麼？",
+    "example_zh": "她是一位充滿活力的演講者。",
+    "mnemonic_zh": "dyn = 功率。"
+  },
+  {
+    "root": "ego",
+    "pronunciation": "/ˈiːɡoʊ/",
+    "meaning": "自我",
+    "origin": "Greek ego",
+    "derived": [
+      "ego",
+      "egocentric",
+      "egomania"
+    ],
+    "example_sentence": "His ego grew after the win.",
+    "mnemonic": "ego = self/I。",
+    "quiz": "egocentric 的焦點是？",
+    "example_zh": "勝利後他的自尊心增強了。",
+    "mnemonic_zh": "自我=自我/我。"
+  },
+  {
+    "root": "equ",
+    "pronunciation": "/iːkw/",
+    "meaning": "平等",
+    "origin": "Latin aequus",
+    "derived": [
+      "equal",
+      "equity",
+      "adequate",
+      "equate"
+    ],
+    "example_sentence": "They advocate equal pay.",
+    "mnemonic": "equ = equal/fair。",
+    "quiz": "equity 追求的是？",
+    "example_zh": "他們主張同工同酬。",
+    "mnemonic_zh": "equ = 平等/公平。"
+  },
+  {
+    "root": "fac",
+    "pronunciation": "/feɪs/",
+    "meaning": "做、造",
+    "origin": "Latin facere",
+    "derived": [
+      "factory",
+      "facade",
+      "facilitate"
+    ],
+    "example_sentence": "The factory runs 24 hours.",
+    "mnemonic": "fac = make/do。",
+    "quiz": "facade 的原義偏？",
+    "example_zh": "工廠24小時運轉。",
+    "mnemonic_zh": "fac = 製作/做。"
+  },
+  {
+    "root": "fid",
+    "pronunciation": "/fɪd/",
+    "meaning": "相信",
+    "origin": "Latin fidere",
+    "derived": [
+      "confident",
+      "fidelity",
+      "diffident",
+      "infidel"
+    ],
+    "example_sentence": "She is confident about the test.",
+    "mnemonic": "fid = trust/believe。",
+    "quiz": "confident 的基礎是？",
+    "example_zh": "她對這次考試充滿信心。",
+    "mnemonic_zh": "fid = 信任/相信。"
+  },
+  {
+    "root": "fin",
+    "pronunciation": "/fɪn/",
+    "meaning": "結束",
+    "origin": "Latin finis",
+    "derived": [
+      "final",
+      "finite",
+      "confine",
+      "infinite"
+    ],
+    "example_sentence": "This is the final round.",
+    "mnemonic": "fin = end。",
+    "quiz": "infinite 表示什麼極限？",
+    "example_zh": "這是最後一輪。",
+    "mnemonic_zh": "結束=結束。"
+  },
+  {
+    "root": "flag",
+    "pronunciation": "/flæɡ/",
+    "meaning": "燃燒",
+    "origin": "Latin flagrare",
+    "derived": [
+      "flagrant",
+      "flagellate",
+      "conflagration"
+    ],
+    "example_sentence": "The flagrant error ruined the report.",
+    "mnemonic": "flag = burn。",
+    "quiz": "conflagration 通常指什麼？",
+    "example_zh": "這個公然的錯誤毀了這份報告。",
+    "mnemonic_zh": "旗幟=燃燒。"
+  },
+  {
+    "root": "form",
+    "pronunciation": "/fɔːrm/",
+    "meaning": "形成",
+    "origin": "Latin formare",
+    "derived": [
+      "form",
+      "format",
+      "formula",
+      "transform"
+    ],
+    "example_sentence": "Clay can be formed into many shapes.",
+    "mnemonic": "form = shape/make。",
+    "quiz": "transform 的行為是？",
+    "example_zh": "黏土可以塑造成多種形狀。",
+    "mnemonic_zh": "形式=形狀/製造。"
+  },
+  {
+    "root": "fract",
+    "pronunciation": "/frækt/",
+    "meaning": "破碎",
+    "origin": "Latin frangere",
+    "derived": [
+      "fracture",
+      "fragment",
+      "fraction",
+      "refract"
+    ],
+    "example_sentence": "The bone fracture needed surgery.",
+    "mnemonic": "fract = break。",
+    "quiz": "fragment 暗示什麼狀態？",
+    "example_zh": "骨折需要手術。",
+    "mnemonic_zh": "fract = 斷裂。"
+  },
+  {
+    "root": "fund",
+    "pronunciation": "/fʌnd/",
+    "meaning": "基礎、底部",
+    "origin": "Latin fundus",
+    "derived": [
+      "fundamental",
+      "founder",
+      "refund"
+    ],
+    "example_sentence": "Reading is fundamental to learning.",
+    "mnemonic": "fund = bottom/base。",
+    "quiz": "fundamental 通常形容什麼層次？",
+    "example_zh": "閱讀是學習的基礎。",
+    "mnemonic_zh": "資金=底部/基數。"
+  },
+  {
+    "root": "gress",
+    "pronunciation": "/ɡres/",
+    "meaning": "行走",
+    "origin": "Latin gradi",
+    "derived": [
+      "progress",
+      "regress",
+      "congress",
+      "ingress"
+    ],
+    "example_sentence": "The project made slow progress.",
+    "mnemonic": "gress = step/go。",
+    "quiz": "congress 的原始活動是？",
+    "example_zh": "該項目進展緩慢。",
+    "mnemonic_zh": "進度=步/走。"
+  },
+  {
+    "root": "gram",
+    "pronunciation": "/ɡræm/",
+    "meaning": "寫、記錄",
+    "origin": "Greek gramma",
+    "derived": [
+      "grammar",
+      "diagram",
+      "program",
+      "anagram"
+    ],
+    "example_sentence": "Grammar rules help us write clearly.",
+    "mnemonic": "gram = write/record。",
+    "quiz": "program 最接近何者？",
+    "example_zh": "文法規則幫助我們清晰地寫作。",
+    "mnemonic_zh": "gram = 寫入/記錄。"
+  },
+  {
+    "root": "grat",
+    "pronunciation": "/ɡræt/",
+    "meaning": "喜歡、感謝",
+    "origin": "Latin gratus",
+    "derived": [
+      "gratitude",
+      "grateful",
+      "ingrate",
+      "congratulate"
+    ],
+    "example_sentence": "She felt grateful for the help.",
+    "mnemonic": "grat = thank/pleasing。",
+    "quiz": "gratitude 是什麼感受？",
+    "example_zh": "她對幫助感到感激。",
+    "mnemonic_zh": "grat = 感謝/高興。"
+  },
+  {
+    "root": "greg",
+    "pronunciation": "/ɡreɡ/",
+    "meaning": "群",
+    "origin": "Latin grex",
+    "derived": [
+      "gregarious",
+      "congregate",
+      "segregate",
+      "egregious"
+    ],
+    "example_sentence": "He is naturally gregarious.",
+    "mnemonic": "greg = flock/group。",
+    "quiz": "segregate 的核心動作是？",
+    "example_zh": "他天生善於交際。",
+    "mnemonic_zh": "greg = 羊群/群體。"
+  },
+  {
+    "root": "helio",
+    "pronunciation": "/ˈhiːlioʊ/",
+    "meaning": "太陽",
+    "origin": "Greek helios",
+    "derived": [
+      "heliocentric",
+      "heliotherapy",
+      "perihelion"
+    ],
+    "example_sentence": "The heliocentric model shocked scholars.",
+    "mnemonic": "helio = sun。",
+    "quiz": "heliocentric 的中心是什麼？",
+    "example_zh": "日心模型震驚了學者。",
+    "mnemonic_zh": "helio = 太陽。"
+  },
+  {
+    "root": "hydro",
+    "pronunciation": "/ˈhaɪdroʊ/",
+    "meaning": "水",
+    "origin": "Greek hydor",
+    "derived": [
+      "hydrogen",
+      "hydroplane",
+      "dehydrate"
+    ],
+    "example_sentence": "Water covers most of Earth.",
+    "mnemonic": "hydro = water。",
+    "quiz": "dehydrate 會失去什麼？",
+    "example_zh": "水覆蓋了地球的大部分。",
+    "mnemonic_zh": "水力=水。"
+  },
+  {
+    "root": "hyper",
+    "pronunciation": "/ˈhaɪpər/",
+    "meaning": "超過、過度",
+    "origin": "Greek hyper",
+    "derived": [
+      "hyperactive",
+      "hyperbole",
+      "hypermarket"
+    ],
+    "example_sentence": "The drink is hyper sweet.",
+    "mnemonic": "hyper = over/excessive。",
+    "quiz": "hyperactive 的行為偏向？",
+    "example_zh": "這種飲料非常甜。",
+    "mnemonic_zh": "hyper = 過度/過度。"
+  },
+  {
+    "root": "hypo",
+    "pronunciation": "/ˈhaɪpoʊ/",
+    "meaning": "低於、在...下",
+    "origin": "Greek hypo",
+    "derived": [
+      "hypodermic",
+      "hypothermia",
+      "hypothesis"
+    ],
+    "example_sentence": "The doctor gave a hypodermic shot.",
+    "mnemonic": "hypo = under/below。",
+    "quiz": "hypodermic 穿刺的位置是？",
+    "example_zh": "醫生進行了皮下注射。",
+    "mnemonic_zh": "hyper = 之下/之下。"
+  },
+  {
+    "root": "jur",
+    "pronunciation": "/dʒʊər/",
+    "meaning": "法律",
+    "origin": "Latin jus",
+    "derived": [
+      "juror",
+      "jurisdiction",
+      "abjure"
+    ],
+    "example_sentence": "The juror listened carefully.",
+    "mnemonic": "jur = law。",
+    "quiz": "jurisdiction 管轄什麼？",
+    "example_zh": "陪審員認真地聽著。",
+    "mnemonic_zh": "jur = 法律。"
+  },
+  {
+    "root": "just",
+    "pronunciation": "/dʒʌst/",
+    "meaning": "正義",
+    "origin": "Latin justus",
+    "derived": [
+      "justice",
+      "justify",
+      "adjust",
+      "injunction"
+    ],
+    "example_sentence": "Justice must be blind.",
+    "mnemonic": "just = fair/right。",
+    "quiz": "justify 的目的是？",
+    "example_zh": "正義必須是盲目的。",
+    "mnemonic_zh": "公正=公平/正確。"
+  },
+  {
+    "root": "lact",
+    "pronunciation": "/lækt/",
+    "meaning": "奶",
+    "origin": "Latin lac",
+    "derived": [
+      "dairy",
+      "lactose",
+      "lactate"
+    ],
+    "example_sentence": "Babies drink milk.",
+    "mnemonic": "lact = milk。",
+    "quiz": "lactose 通常來自什麼？",
+    "example_zh": "嬰兒喝牛奶。",
+    "mnemonic_zh": "乳糖=牛奶。"
+  },
+  {
+    "root": "leg",
+    "pronunciation": "/leɡ/",
+    "meaning": "法律",
+    "origin": "Latin lex",
+    "derived": [
+      "legal",
+      "legislature",
+      "legitimate"
+    ],
+    "example_sentence": "The legal case took years.",
+    "mnemonic": "leg = law。",
+    "quiz": "legitimate 表示什麼性質？",
+    "example_zh": "法律案件花了數年時間。",
+    "mnemonic_zh": "腿=法律。"
+  },
+  {
+    "root": "lev",
+    "pronunciation": "/lev/",
+    "meaning": "提高",
+    "origin": "Latin levare",
+    "derived": [
+      "lever",
+      "elevate",
+      "levitate",
+      "alleviate"
+    ],
+    "example_sentence": "The crane lifted the beam.",
+    "mnemonic": "lev = lift/raise。",
+    "quiz": "levitate 最像什麼動作？",
+    "example_zh": "起重機吊起了橫樑。",
+    "mnemonic_zh": "lev = 升力/升高。"
+  },
+  {
+    "root": "liber",
+    "pronunciation": "/ˈlaɪbər/",
+    "meaning": "自由",
+    "origin": "Latin liber",
+    "derived": [
+      "liberty",
+      "liberate",
+      "deliver",
+      "libertarian"
+    ],
+    "example_sentence": "Speech is a liberty.",
+    "mnemonic": "liber = free。",
+    "quiz": "liberate 的行為是？",
+    "example_zh": "言論是一種自由。",
+    "mnemonic_zh": "liber=自由。"
+  },
+  {
+    "root": "lingu",
+    "pronunciation": "/lɪŋɡwɪst/",
+    "meaning": "語言",
+    "origin": "Latin lingua",
+    "derived": [
+      "linguistics",
+      "bilingual",
+      "lingual"
+    ],
+    "example_sentence": "He studies linguistic patterns.",
+    "mnemonic": "lingu = language。",
+    "quiz": "bilingual 會幾種語言？",
+    "example_zh": "他研究語言模式。",
+    "mnemonic_zh": "lingu = 語言。"
+  },
+  {
+    "root": "liter",
+    "pronunciation": "/ˈliːtər/",
+    "meaning": "字母、文字",
+    "origin": "Latin littera",
+    "derived": [
+      "literature",
+      "literal",
+      "illiterate",
+      "literacy"
+    ],
+    "example_sentence": "Literature reveals culture.",
+    "mnemonic": "liter = letter/writing。",
+    "quiz": "literature 的本質是？",
+    "example_zh": "文學揭示文化。",
+    "mnemonic_zh": "升=字母/書寫。"
+  },
+  {
+    "root": "lith",
+    "pronunciation": "/lɪθ/",
+    "meaning": "石頭",
+    "origin": "Greek lithos",
+    "derived": [
+      "lithograph",
+      "monolith",
+      "lithium"
+    ],
+    "example_sentence": "The monolith stood tall.",
+    "mnemonic": "lith = stone。",
+    "quiz": "monolith 的主要材質偏？",
+    "example_zh": "巨石高高矗立。",
+    "mnemonic_zh": "lith = 石頭。"
+  },
+  {
+    "root": "lun",
+    "pronunciation": "/luːn/",
+    "meaning": "月亮",
+    "origin": "Latin luna",
+    "derived": [
+      "lunar",
+      "lunatic",
+      "semilunar"
+    ],
+    "example_sentence": "Lunar eclipses are beautiful.",
+    "mnemonic": "lun = moon。",
+    "quiz": "lunar 通常和什麼相關？",
+    "example_zh": "月食是美麗的。",
+    "mnemonic_zh": "lun = 月亮。"
+  },
+  {
+    "root": "magn",
+    "pronunciation": "/mæɡn/",
+    "meaning": "大",
+    "origin": "Latin magnus",
+    "derived": [
+      "magnify",
+      "magnitude",
+      "magnanimous",
+      "magnate"
+    ],
+    "example_sentence": "The hurricane reached magnitude 5.",
+    "mnemonic": "magn = great/big。",
+    "quiz": "magnify 的動作是？",
+    "example_zh": "颶風達到5級。",
+    "mnemonic_zh": "magn = 偉大/大。"
+  },
+  {
+    "root": "mal",
+    "pronunciation": "/mæl/",
+    "meaning": "壞",
+    "origin": "Latin malus",
+    "derived": [
+      "malicious",
+      "malignant",
+      "malpractice",
+      "malodorous"
+    ],
+    "example_sentence": "The rumor was malicious.",
+    "mnemonic": "mal = bad。",
+    "quiz": "malignant 通常形容什麼？",
+    "example_zh": "這個謠言是惡意的。",
+    "mnemonic_zh": "次=不好。"
+  },
+  {
+    "root": "mand",
+    "pronunciation": "/mænd/",
+    "meaning": "命令",
+    "origin": "Latin mandare",
+    "derived": [
+      "mandate",
+      "commander",
+      "demand",
+      "mandatory"
+    ],
+    "example_sentence": "The government issued a mandate.",
+    "mnemonic": "mand = order/command。",
+    "quiz": "mandatory 表示什麼性質？",
+    "example_zh": "政府發布了一項任務。",
+    "mnemonic_zh": "mand = 命令/命令。"
+  },
+  {
+    "root": "mania",
+    "pronunciation": "/ˈmeɪniə/",
+    "meaning": "瘋狂",
+    "origin": "Greek mania",
+    "derived": [
+      "maniac",
+      "manic",
+      "kleptomania"
+    ],
+    "example_sentence": "He has a mania for collecting coins.",
+    "mnemonic": "mania = madness/obsession。",
+    "quiz": "kleptomania 的行為重點是？",
+    "example_zh": "他有收集硬幣的狂熱。",
+    "mnemonic_zh": "狂熱=瘋狂/痴迷。"
+  },
+  {
+    "root": "mar",
+    "pronunciation": "/mɑːr/",
+    "meaning": "海",
+    "origin": "Latin mare",
+    "derived": [
+      "marine",
+      "maritime",
+      "submarine",
+      "mariner"
+    ],
+    "example_sentence": "Marine life is diverse.",
+    "mnemonic": "mar = sea。",
+    "quiz": "maritime 的主題是？",
+    "example_zh": "海洋生物多種多樣。",
+    "mnemonic_zh": "海=海。"
+  },
+  {
+    "root": "medi",
+    "pronunciation": "/ˈmiːdi/",
+    "meaning": "中間",
+    "origin": "Latin medius",
+    "derived": [
+      "mediate",
+      "mediocre",
+      "immense",
+      "medium"
+    ],
+    "example_sentence": "They sought to mediate the dispute.",
+    "mnemonic": "medi = middle。",
+    "quiz": "mediate 的目標角色是？",
+    "example_zh": "他們試圖調解爭端。",
+    "mnemonic_zh": "medi = 中間。"
+  },
+  {
+    "root": "micro",
+    "pronunciation": "/ˈmaɪkroʊ/",
+    "meaning": "小",
+    "origin": "Greek mikros",
+    "derived": [
+      "microscope",
+      "microwave",
+      "microcosm"
+    ],
+    "example_sentence": "Bacteria need a microscope.",
+    "mnemonic": "micro = small。",
+    "quiz": "microscope 觀測什麼尺度？",
+    "example_zh": "細菌需要顯微鏡。",
+    "mnemonic_zh": "微=小。"
+  },
+  {
+    "root": "mill",
+    "pronunciation": "/mɪl/",
+    "meaning": "千、磨",
+    "origin": "Latin mille",
+    "derived": [
+      "millennium",
+      "millipede",
+      "mill"
+    ],
+    "example_sentence": "A millennium is one thousand years.",
+    "mnemonic": "mill = thousand/grind。",
+    "quiz": "millennium 的單位是？",
+    "example_zh": "一千年就是一千年。",
+    "mnemonic_zh": "磨=千/磨。"
+  },
+  {
+    "root": "min",
+    "pronunciation": "/mɪn/",
+    "meaning": "少",
+    "origin": "Latin minor",
+    "derived": [
+      "minor",
+      "diminish",
+      "minute",
+      "subminimum"
+    ],
+    "example_sentence": "He is a minor in history.",
+    "mnemonic": "min = small/less。",
+    "quiz": "diminish 的方向是？",
+    "example_zh": "他是歷史系的未成年人。",
+    "mnemonic_zh": "min = 小/少。"
+  },
+  {
+    "root": "mis",
+    "pronunciation": "/mɪs/",
+    "meaning": "送、討厭",
+    "origin": "Latin mittere",
+    "derived": [
+      "mission",
+      "dismiss",
+      "missile",
+      "remission"
+    ],
+    "example_sentence": "They launched a missile.",
+    "mnemonic": "mis = send/hate。",
+    "quiz": "missile 的動詞根源是？",
+    "example_zh": "他們發射了一枚導彈。",
+    "mnemonic_zh": "錯誤=發送/討厭。"
+  },
+  {
+    "root": "mon",
+    "pronunciation": "/mɒn/",
+    "meaning": "警告、單",
+    "origin": "Latin monere",
+    "derived": [
+      "monitor",
+      "monument",
+      "summon"
+    ],
+    "example_sentence": "Police monitor the crowd.",
+    "mnemonic": "mon = warn/admonish。",
+    "quiz": "monitor 的核心動作是？",
+    "example_zh": "警察監視人群。",
+    "mnemonic_zh": "Error 500 (Server Error)!!1500.That’s an error.There was an error. Please try again later.That’s all we know."
+  },
+  {
+    "root": "morph",
+    "pronunciation": "/mɔːrf/",
+    "meaning": "形狀",
+    "origin": "Greek morphe",
+    "derived": [
+      "morphology",
+      "morphology",
+      "isomorph"
+    ],
+    "example_sentence": "Morphology studies word forms.",
+    "mnemonic": "morph = shape。",
+    "quiz": "morphology 通常研究什麼？",
+    "example_zh": "形態學研究單字形式。",
+    "mnemonic_zh": "變形=形狀。"
+  },
+  {
+    "root": "multi",
+    "pronunciation": "/ˈmʌlti/",
+    "meaning": "多",
+    "origin": "Latin multus",
+    "derived": [
+      "multiple",
+      "multitude",
+      "multiply",
+      "multicultural"
+    ],
+    "example_sentence": "We face multiple choices.",
+    "mnemonic": "multi = many。",
+    "quiz": "multiply 的數學意義是？",
+    "example_zh": "我們面臨多種選擇。",
+    "mnemonic_zh": "多=許多。"
+  },
+  {
+    "root": "mut",
+    "pronunciation": "/mjuːt/",
+    "meaning": "改變",
+    "origin": "Latin mutare",
+    "derived": [
+      "mutual",
+      "commute",
+      "immutable",
+      "mutate"
+    ],
+    "example_sentence": "The commute is long.",
+    "mnemonic": "mut = change。",
+    "quiz": "mutate 的核心動作是？",
+    "example_zh": "通勤時間很長。",
+    "mnemonic_zh": "mut = 改變。"
+  }
+]
